@@ -1,4 +1,4 @@
-train=read.csv("E:\\DA Projects(1)\\Loancrossselling problem\\train_u6lujuX.csv" ,na.strings = c(""," ","NA") )
+train=read.csv("E:\\DA Projects(1)\\Loancrossselling problem\\train" ,na.strings = c(""," ","NA") )
 str(train)
 summary(train)
 library(DataExplorer)
