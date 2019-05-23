@@ -242,4 +242,4 @@ library(pROC)
 roc_obj <- roc(as.numeric(test_set[, 5]), as.numeric(y_pred))
 auc(roc_obj)
 #AUC = 0.7719
-#Conclusion:We came to a conclusion that naive bayes is the most suitable model having Accuracy = 85.41% and 0.7719 area under ROC curve= 0.7557  
+#Conclusion:We came to a conclusion that naive bayes is the most suitable model having Accuracy = 85.41% and area under ROC curve=0.7719.
